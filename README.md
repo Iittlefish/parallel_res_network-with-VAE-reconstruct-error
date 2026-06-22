@@ -4,4 +4,4 @@
 
 而下面的parallel residual network，則有著多條平行網路(預設五條)，每條內有residual block(預設五個)，經過平行網路後進行short cut，最後經過element gate，篩選重要的特徵並給予較高的權重。
 
-只網路設計於應對不平衡醫學資料集
+此網路設計於應對不平衡醫學資料集
